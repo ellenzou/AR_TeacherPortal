@@ -20,17 +20,23 @@
   box-sizing: border-box;
 }
 
+#header {
+  text-align: center;
+}
+
 body {
   padding: 3em;
   background-image: url(http://subtlepatterns.com/patterns/retina_wood.png);
-  color: grey;
+  color: black;
   font-family: 'Quicksand', sans-serif;
 }
 
+h4 {
+  margin:5px;
+}
 /* =================
    Container Styling */
 .container {
-  position: relative;
   background: white;
   padding: 3em;
   border-radius: 0px;
@@ -40,11 +46,9 @@ body {
    Tab Styling */
 .tab-group {
   position: relative;
-  border: 1px solid #eee;
   margin-top: 5em;
-  border-radius: 0 0 0px 0px;
-    width: 1180px;
-    margin-left: -50px;
+  text-align: center;
+  border:none;
 }
 .tab-group section {
   opacity: 0;
@@ -56,24 +60,24 @@ body {
 .tab-group section.active {
   opacity: 1;
   height: auto;
-    width: auto;
+  width: auto;
   overflow: visible;
 }
 
 .tab-nav {
-    position: relative;
-    top:-16px;
+  position: relative;
+  top:-16px;
   list-style: none;
   margin: -3.5em -10px 0 0;
   overflow: hidden;
-    font-weight: 100;
+  font-weight: 100;
+  text-align:center;
     
 }
 
 .tab-nav img{
     
    margin-top: 20px;
-    
     margin-left: -10px;
     height: 50px;
     width: 50px;
@@ -94,11 +98,12 @@ body {
 .tab-nav li {
   display: inline;
     width: 230px;
+  }
     
-    
+.imagebox img{
+  width:1000px;
+text-align:center;}   
      
-}
-
 .tab-nav #game_environment a {
     width: 195px;
 margin-left: 30px;}
@@ -162,7 +167,6 @@ p{
 
 #rcorners1 {
     border-radius: 0px;
-    border: 2px solid  #2ecc71;
     padding: 45px;
     
     width: 116%;
@@ -199,7 +203,6 @@ article {
 .table-of-contents {
   float: left;
   width: 250px;
-  border: 2px solid #2ecc71;
   background: #2ecc71;
   font-size: 1.2em;
   padding: 3em 1em;
@@ -271,9 +274,7 @@ h3:target, h3 {
 
 #tab1 p {
     position: relative;
-    top:20px;
-    left:-70px;
-    width:1110px;
+    width:1000px;
     
 }
 
@@ -282,7 +283,6 @@ h3:target, h3 {
     top:10px;
     left:-70px;
     width:1110px;
-    border: .5px solid #ff9900;
     
 }
 
@@ -310,7 +310,6 @@ h3:target, h3 {
     top:10px;
     left:-70px;
     width:1110px;
-    border: 1px solid #ff9900;
     
 }
 
@@ -320,15 +319,7 @@ h3:target, h3 {
     
 }
 
-#tab2 iframe {
-    
-    position: relative;
-     right:100px;
-    top:10px; 
-    width: 122%;
-    height: 1200px;
-    border-style: none;
-    margin: 0px 0px 0iframepx 0px;
+
 }
 
 #tab2 table {
@@ -337,25 +328,7 @@ h3:target, h3 {
     font
 }
 
-#tab1 iframe {
-    
-    position: relative;
-     right:100px;
-    top:10px; 
-    width: 122%;
-    height: 2200px;
-    border-style: none;
-    margin: 0px 0px 0iframepx 0px;
-}
 
-#tab4 iframe {
-    
-    
-    width: 123%;
-    height: 1800px;
-    border-style: none;
-    margin: 0px 0px 0iframepx 0px;
-}
 
 /*
 #tab3 nav{
@@ -433,7 +406,6 @@ h3:target, h3 {
     top:10px;
     left:-70px;
     width:1110px;
-    border: 1px solid #ff9900;
     
 }
 
@@ -453,16 +425,6 @@ h3:target, h3 {
 
 
 
-#tab3 iframe {
-    
-    position: relative;
-     right:100px;
-    top:10px; 
-    width: 122%;
-    height: 5200px;
-    border-style: none;
-    margin: 0px 0px 0iframepx 0px;
-}
 
 
 
@@ -486,20 +448,9 @@ h3:target, h3 {
     top:-10px;
     left:-79px;
     width:1110px; 
-    border: 1px solid #ff9900;
 }
 
-#tab4 iframe {
-    
-    position: relative;
-     left:-200px;
-    
-    top:10px; 
-    width: 1230px;
-    height: 2200px;
-    border-style: none;
-    margin: 0px 0px 0iframepx 0px;
-}
+
     
 #tab5 h1 {
  text-align: center;
@@ -522,21 +473,8 @@ h3:target, h3 {
     top:-10px;
     left:-9px;
     width:1110px;
-    border: 1px solid #ff9900;
 }
 
-
-#tab5 iframe {
-    
-    position: relative;
-     left:-80px;
-    
-    top:10px; 
-    width: 1230px;
-    height: 2200px;
-    border-style: none;
-    margin: 0px 0px 0iframepx 0px;
-}
 
 
 #tab6 h1 {
@@ -559,7 +497,6 @@ h3:target, h3 {
     top:-10px;
     left:-1px;
     width:1110px; 
-    border: 1px solid #ff9900;
 }
 
 #tab6 #pageintro p{
@@ -572,26 +509,15 @@ h3:target, h3 {
     
 }
 
-#tab6 iframe {
-    
-    position: relative;
-     left:-80px;
-    
-    top:10px; 
-    width: 1230px;
-    height: 2200px;
-    border-style: none;
-    margin: 0px 0px 0iframepx 0px;
-}
 
 #solution_content h3 {
     
     padding-left: 50px;
 }
 
-.caption p {
-    position: 
-}
+.caption{
+    width:1000px;
+  }
 
 .copyright {
           background: rgba( 0, 0, 0, 0.7);
