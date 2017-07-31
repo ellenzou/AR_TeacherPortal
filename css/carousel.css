@@ -1,0 +1,111 @@
+@import url('http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css');
+
+.carousel-wrapper .item {
+    color: #0ECEAB;
+    background: white;
+    height: 400px;
+    /* Align the text vertically center. */
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+ padding-top: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+    overflow-y: scroll;
+}
+
+#myCarousel .item {
+    line-height: 90px;
+}
+
+.carousel-header {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.carousel-wrapper .item p {
+    color: #666;
+    background: white;
+    height: 10px;
+    line-height: 22px;
+    /* Align the text vertically center. */
+    font-size: 19px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    line-height: 35px;
+}
+
+.carousel-wrapper .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.carousel-wrapper .carousel {
+    margin-top: 30px;
+}
+
+
+
+.carousel-wrapper .carousel-control {
+    top: 30%;
+
+    /* border 3px, size 40px */
+    border: 3px solid #0ECEAB;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 35px;
+    color: #0ECEAB;
+    text-align: center;
+    opacity: .5;
+    filter: alpha(opacity=10);
+}
+.bs-example {
+    margin: 10px;
+}
+/* cancel background image gradient */
+.carousel-wrapper .carousel-control.left-flat {
+    right: auto;
+    left: 35px;
+}
+/* override background image gradient */
+ .carousel-wrapper .carousel-control.right-flat {
+    right: 35px;
+    left: auto;
+}
+
+.carousel-wrapper .carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+  border: 2px solid #0ECEAB;
+  border-radius: 50%;
+ 
+  
+    
+        
+}
+.carousel-wrapper .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    background-color: #0ECEAB;
+
+   
+   
+}

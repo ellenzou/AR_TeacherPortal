@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title> Alien Rescue Teacher Portal</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/game_environment.css">
+      
+       <script src="js/jquery-2.1.1.min.js"></script>
+       <script src="js/game_environment.js"></script>
+    
+    
+  </head>
+
+  <body>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'/>
+<div class='gallery'>
+  <h1>planets</h1>
+  <div class='demo3 demo'>
+    <br>
+    <div class='imagebox'>
+    <img src="images/game%20data/planets/mercury.png">
+      <div class='caption'>
+        <h3>Mercury</h3>
+        <table>
+  <tr>
+      <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>
+<td>
+<ul><li>Temperature:&#160; –185C to 420C </li>
+<li>Day is 59 Earth days long </li>
+<li>Small ice caps at poles </li>
+<li>Maybe iron and nickel </li>
+<li>May have a weak magnetic field </li>
+<li>Hard surface, craters </li>
+<li>Gravity = 0.38 of Earth’s </li>
+<li>Almost no atmosphere</li></ul>
+</td>
+<td>
+<ul><li>Average temperature:&#160; 450K </li>
+<li>Atmospheric pressure:&#160; 0.007 </li>
+<li>Temperature range:&#160; 90K to 700K </li>
+<li>Magnetic field:&#160; weak (2 bands) </li>
+<li>Substances:&#160; calcium, carbon, iron, nickel, sodium, water </li>
+<li>Seismic activity:&#160; level 3&#160; (moderate) </li>
+<li>Topography (radar):&#160; from –250 to 500 meters </li>
+<li>Narrow angle camera:&#160; three pictures of craters </li>
+<li>Wide angle camera:&#160; seven pictures </li>
+<li>Infrared camera:&#160; 0C to 475C, with dark side cold and side facing sun hot</li></ul>
+</td></tr>
+    </table> 
+          
+    
+      </div>
+    </div>
+   
+    <div class='imagebox'>
+    <img src='images/game%20data/planets/Venus.png'/>
+      <div class='caption'>
+        <h3>Venus</h3>
+        <table>
+            <tr>
+      <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>
+
+            <td>
+<ul><li>Average temperature = 462C </li>
+<li>Thick atmosphere </li>
+<li>Gravity = 0.9 of Earth’s </li>
+<li>Carbon dioxide </li>
+<li>Sulfuric acid </li>
+<li>Gentle winds at ground level</li></ul>
+</td>
+<td>
+<ul><li>Average temperature:&#160; 705K </li>
+<li>Atmospheric pressure:&#160; 90 </li>
+<li>Temperature range:&#160; 650K to 780K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; iron, nickel, nitrogen, sulfur, sulfur dioxide, carbon dioxide </li>
+<li>Seismic activity:&#160; level 5 (very high) </li>
+<li>Topography (radar):&#160; -100 to +250 </li>
+<li>Narrow angle camera:&#160; three pictures, false color image of craters and crevices </li>
+<li>Wide angle camera:&#160; four pictures </li>
+<li>Infrared camera:&#160; 475C</li></ul>
+</td></tr>
+
+            
+        </table>  
+       
+      </div>
+    </div>
+    
+
+      
+ <div class='imagebox'>
+    <img src='images/game%20data/planets/Moon.png'/>
+      <div class='caption'>
+        <h3>Moon</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+          <td>
+<ul><li>Water ice (though maybe some at poles) </li>
+<li>No atmosphere </li>
+<li>Gravity is 0.16 of Earth’s</li></ul>
+</td>
+<td>
+<ul><li>average temperature:&#160; 275K </li>
+<li>Atmospheric pressure:&#160; none </li>
+<li>Temperature range:&#160; 150K to 370K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; argon, calcium, carbon, iron, nickel, sodium, water </li>
+<li>Seismic activity: level 3&#160; (moderate) </li>
+<li>Topography (radar):&#160; -250 to +500 meters </li>
+<li>Narrow angle camera:&#160; three pictures </li>
+<li>Wide angle camera:&#160; seven pictures </li>
+<li>Infrared camera:&#160; 150C to –250C, depending position of sun</li></ul>
+</td>  
+                
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Mars.png'/>
+      <div class='caption'>
+        <h3>Mars</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+           <td>
+<ul><li>Polar ice caps; both dry and water ice </li>
+<li>Thin atmosphere </li>
+<li>May have water in permafrost </li>
+<li>Carbon dioxide </li>
+<li>Atmosphere too thin to protect from radiation </li>
+<li>-87C to 0C </li>
+<li>Iron </li>
+<li>Oxygen</li>
+<li>Volcanoes; largest is Olympus Mons </li>
+<li>Gravity is 0.4 of Earth’s </li>
+<li>Mariner Valley</li></ul>
+</td>
+<td>
+<ul><li>Average temperature:&#160; 225K </li>
+<li>Atmospheric pressure:&#160; 0.007 </li>
+<li>Temperature range:&#160; 140K to 300K </li>
+<li>Magnetic field:&#160; very weak (1 band) </li>
+<li>Substances:&#160; argon, iron, nitrogen, carbon dioxide, oxygen, and water </li>
+<li>Seismic activity: level 3&#160; (moderate) </li>
+<li>Topography (radar):&#160; -250 to 500 meters </li>
+<li>Narrow angle camera:&#160; two pictures of rocks, soil and craters </li>
+<li>Wide angle camera:&#160; none </li>
+<li>Infrared camera:&#160; 100C at equator to –250C at poles</li></ul>
+</td> 
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Phobos.png'/>
+      <div class='caption'>
+        <h3>Phobos</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+        <td>
+<ul><li>Gravity = 0.0008 of Earth’s </li>
+<li>No atmosphere </li>
+<li>Dry </li>
+<li>Cracks in surface may contain water ice</li></ul>
+</td>
+<td>
+<ul><li>Average temperature:&#160; 230K </li>
+<li>Atmospheric pressure:&#160; none </li>
+<li>Temperature range:&#160; 140K to 420K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; carbon, iron, nickel, sodium, water </li>
+<li>Seismic activity:&#160; level 2&#160; (low) </li>
+<li>Topography (radar):&#160; 150 to –250 meters </li>
+<li>Narrow angle camera:&#160; two pictures of craters </li>
+<li>Wide angle camera:&#160; four pictures of craters and rocks </li>
+<li>Infrared camera: malfunction</li></ul>
+</td>    
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Deimos.png'/>
+      <div class='caption'>
+        <h3>Deimos</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+          <td>
+<ul><li>No atmosphere </li>
+<li>&#160;Gravity = 0.0003 of Earth’s</li></ul>
+</td>
+<td>
+<ul><li>Average temperature:&#160; 225K </li>
+<li>Atmospheric pressure:&#160; none </li>
+<li>Temperature range:&#160; 140K to 380K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; carbon, nickel, iron, and sodium</li>
+<li>Seismic activity:&#160; level 1 (very low) </li>
+<li>Topography (radar):&#160; 200 to –250 meters </li>
+<li>Narrow angle camera:&#160; one picture of craters </li>
+<li>Wide angle camera:&#160; 6 pictures of rocks </li>
+<li>Infrared camera:&#160; 100C to –250 C, depending on position of sun</li></ul>
+</td>  
+            
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Jupiter.png'/>
+      <div class='caption'>
+        <h3>Jupiter</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+       <td>
+<ul><li>Gravity = 2.54 of Earth’s </li>
+<li>Core temperature = 24,000C </li>
+<li>High atmospheric pressure </li>
+<li>Cloud top temperature = -120C </li>
+<li>Fast winds, storms </li>
+<li>Hydrogen, helium, methane, and ammonia </li>
+<li>Strong magnetic field</li></ul>
+</td>
+<td>
+<ul><li>Average temperature:&#160; N/A </li>
+<li>Atmospheric pressure:&#160; 600 </li>
+<li>Temperature range:&#160; rises as you fall through atmosphere </li>
+<li>Magnetic field:&#160; very strong (9 bands) </li>
+<li>Substances:&#160; lots of hydrogen, helium, some methane </li>
+<li>Seismic activity:&#160; malfunction </li>
+<li>Topography (radar):&#160; whole range –250 to 500 meters </li>
+<li>Narrow angle camera:&#160; three pictures </li>
+<li>Wide angle camera:&#160; eight pictures, lightning </li>
+<li>Infrared camera:&#160; all between –100 and –250C, does not show Great Red Spot</li></ul>
+</td>     
+            
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Io.png'/>
+      <div class='caption'>
+        <h3>Io</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            <td>
+<ul><li>Gravity = 0.19 of Earth’s </li>
+<li>Active volcanoes </li>
+<li>Sulfur </li>
+<li>Thin atmosphere </li>
+<li>Sodium, sulfur dioxide </li>
+<li>500C in some places, colder in others</li></ul>
+</td>
+<td>
+<ul><li>&#160;average temperature:&#160; 200K </li>
+<li>Atmospheric pressure:&#160; 0.05 </li>
+<li>Temperature range:&#160; 150 to 280K </li>
+<li>Magnetic field:&#160; weak (2 bands)substances:&#160; iron, nickel, sodium, sulfur, sulfur dioxide </li>
+<li>Seismic activity: level 5 (very high) </li>
+<li>Topography (radar):&#160; shows mountain ranges, great variety, -250 to 500 meters </li>
+<li>Narrow angle camera: three pictures </li>
+<li>Wide angle camera:&#160; six pictures, volcanic activity </li>
+<li>Infrared camera:&#160; shows hot spots around volcanoes, but much is well below –100C</li></ul>
+</td>
+            
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Europa.png'/>
+      <div class='caption'>
+        <h3>Europa</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+            <td>
+<ul><li>May have oceans below layer of ice </li>
+<li>Gravity = 0.14 of Earth’s</li>
+<li>Surface temperatures: around 130 degrees below zero Celsius</li></ul>
+</td>
+<td>
+<ul><li>Average temperature:&#160; 150K </li>
+<li>Atmospheric pressure:&#160; none </li>
+<li>Temperature range:&#160; 100 to 200K </li>
+<li>Magnetic field:&#160; weak (2 bands) </li>
+<li>Substances:&#160; calcium, water, nitrogen, oxygen, carbon dioxide, iron </li>
+<li>Seismic activity:&#160; level 4 (high) </li>
+<li>Topography (radar):&#160; show mountain ranges and lots of low areas –250 meters </li>
+<li>Narrow angle camera:&#160; shows cracks in surface </li>
+<li>Wide angle camera:&#160; none </li>
+<li>Infrared camera:&#160; all –250C</li></ul>
+</td>
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Ganymede.png'/>
+      <div class='caption'>
+        <h3>Ganymede</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+     <td>
+<ul><li>Water ice, rock, and metal</li>
+<li>Gravity = 0.15 of Earth’s </li>
+<li>Earthquakes in past </li>
+<li>Thin, cold atmosphere </li>
+<li>Maybe a magnetic field</li>
+<li>Maybe iron core</li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 0.1 </li>
+<li>Average temperature:&#160; 110K </li>
+<li>Temperature range:&#160; 50 to 200K </li>
+<li>Magnetic field:&#160; moderate (3 bands) </li>
+<li>Substances:&#160; oxygen, water, carbon dioxide, methane </li>
+<li>Seismic activity: level 2&#160; (low) </li>
+<li>Topography (radar):&#160; most around 100 meters, some areas –250 meters </li>
+<li>Narrow angle camera:&#160; three pictures, craters </li>
+<li>Wide angle camera:&#160; seven pictures, craters and ridges </li>
+<li>Infrared camera:&#160; under 0C, side facing sun is slightly warmer</li></ul>
+</td>       
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Callisto.png'/>
+      <div class='caption'>
+        <h3>Calisto</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+          <td>
+<ul><li>Gravity = 0.13 of Earth’s </li>
+<li>Atmosphere of oxygen </li>
+<li>-135C</li>
+<li>Rocky core surrounded by ice mixed with rock and dirt</li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 0.01 </li>
+<li>Average temperature:&#160; 110K </li>
+<li>Temperature range:&#160; 50 to 200K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; oxygen, water, carbon dioxide, methane (same graphic as Ganymede) </li>
+<li>Seismic activity: level 1 (very low) </li>
+<li>Topography (radar):&#160; most at sea level, lots of craters, -250 to 100 meters </li>
+<li>Narrow angle camera:&#160; two pictures </li>
+<li>Wide angle camera:&#160; six pictures </li>
+<li>Infrared camera: -250C part facing sun slightly warmer</li></ul>
+</td>  
+            
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Saturn.png'/>
+      <div class='caption'>
+        <h3>Saturn</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+        <td>
+<ul><li>Gravity = 1.07 </li>
+<li>Thick atmosphere </li>
+<li>Hydrogen, helium, methane, water vapor, and ammonia </li>
+<li>Crushing atmospheric pressure </li>
+<li>Strong winds at equator </li></ul>
+<p><br />
+</p>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 350 </li>
+<li>Average temperature:&#160; N/A </li>
+<li>Temperature range:&#160; N/A</li>
+<li>Magnetic field:&#160; very strong (6 bands) </li>
+<li>Substances:&#160; almost all hydrogen, some helium, small amount of methane </li>
+<li>Seismic activity:&#160; malfunction </li>
+<li>Topography (radar):&#160; mostly –250 with some mottling showing 100 meters </li>
+<li>Narrow angle camera:&#160; four pictures </li>
+<li>Wide angle camera:&#160; eight pictures, rocks in rings, lightning </li>
+<li>Infrared camera: malfunction</li></ul>
+</td>    
+            
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Titan.png'/>
+      <div class='caption'>
+        <h3>Titan</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+       <td>
+<ul><li>Thick atmosphere </li>
+<li>Nitrogen, methane </li>
+<li>Gravity = 0.14 of Earth’s </li>
+<li>-180C at cloud tops </li>
+<li>A muddy surface with water ice with a layer of methane scattered about the surface</li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 1.6 </li>
+<li>Average temperature:&#160; 94K </li>
+<li>Temperature range:&#160; 60K to 160K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; argon, nitrogen (mostly), oxygen, methane </li>
+<li>Seismic activity: level 4 (high) </li>
+<li>Topography (radar):&#160; -250 to +500 meters </li>
+<li>Narrow angle camera:&#160; two pictures </li>
+<li>Wide angle camera:&#160; six pictures </li>
+<li>Infrared camera:&#160; all below 0C; equator slightly warmer than poles</li></ul>
+</td>     
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Uranus.png'/>
+      <div class='caption'>
+        <h3>Uranus</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+        <td>
+<ul><li>Hydrogen, helium, methane </li>
+<li>Thick atmosphere </li>
+<li>Maybe rocky core with oceans of water, ammonia, and methane </li>
+<li>-200C at cloud tops, warmer below </li>
+<li>Gravity = 0.8 of Earth’s</li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 130 </li>
+<li>Average temperature:&#160; N/A </li>
+<li>Temperature range:&#160; 100K and rises as probe descends </li>
+<li>Magnetic field: strong (5 bands) </li>
+<li>Substances:&#160; hydrogen (mostly), helium, methane </li>
+<li>Seismic activity:&#160; malfunction </li>
+<li>Topography (radar): &#160;almost solid 100 meters </li>
+<li>Narrow angle camera:&#160; one picture </li>
+<li>Wide angle camera:&#160; eight pictures </li>
+<li>Infrared camera: all below –100C, pole facing sun is slightly warmer</li></ul>
+</td>    
+            
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Neptune.png'/>
+      <div class='caption'>
+        <h3>Neptune</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+           <td>
+<ul><li>Hydrogen, helium, methane </li>
+<li>-200C at cloud tops </li>
+<li>Rocky core may be surrounded by water, ammonia, and methane </li>
+<li>Gravity = 1.2 of Earth’s</li>
+<li>Thick atmosphere </li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 120 </li>
+<li>Average temperature:&#160; N/A</li>
+<li>Temperature range: 100K and rises as probe descends </li>
+<li>Magnetic field:&#160; strong (5 bands) </li>
+<li>Substances:&#160; hydrogen (mostly), helium, methane, water </li>
+<li>Seismic activity:&#160; malfunction </li>
+<li>Topography (radar):&#160; mostly around 200 meters;&#160; has bands </li>
+<li>Narrow angle camera:&#160; two pictures of great dark spot </li>
+<li>Wide angle camera:&#160; seven pictures </li>
+<li>Infrared camera:&#160; all below –100C</li></ul>
+</td> 
+            
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Triton.png'/>
+      <div class='caption'>
+        <h3>Triton</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+           <td>
+<ul><li>Geysers </li>
+<li>Average temperature: -235C </li>
+<li>Thin atmosphere </li>
+<li>Nitrogen, methane </li>
+<li>Gravity = 0.08 of Earth's</li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 0.001 </li>
+<li>Average temperature:&#160; 39K </li>
+<li>Temperature range:&#160; constant at 39K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; nitrogen, methane, argon, calcium, iron, nickel, oxygen </li>
+<li>Seismic activity: level 2&#160; (low) </li>
+<li>Topography (radar):&#160; -250 to 500 meters </li>
+<li>Narrow angle camera:&#160; two` pictures </li>
+<li>Wide angle camera:&#160; eight pictures, ridges </li>
+<li>Infrared camera:&#160; almost solid –250C</li></ul>
+</td> 
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Pluto.png'/>
+      <div class='caption'>
+        <h3>Pluto</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+           <td>
+<ul><li>gravity = 0.07 of Earth’s </li>
+<li>May have a thin atmosphere of nitrogen, methane, and carbon monoxide</li>
+<li>Icy surface</li>
+<li>Surface temperature: -263C</li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; 0.01 </li>
+<li>Average temperature:&#160; 40K </li>
+<li>Temperature range:&#160; 33-47K </li>
+<li>Magnetic field:&#160; malfunction </li>
+<li>Substances:&#160; carbon, iron, nickel, nitrogen, sodium, methane, water </li>
+<li>Seismic activity: level 3&#160; (moderate) </li>
+<li>Topography (radar):&#160; shows variety, -250 to +300 meters </li>
+<li>Narrow angle camera:&#160; two pictures </li>
+<li>Wide angle camera:&#160; seven pictures, uneven surface </li>
+<li>Infrared camera: almost solid –250C</li></ul>
+</td> 
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+      
+       <div class='imagebox'>
+    <img src='images/game%20data/planets/Charon.png'/>
+      <div class='caption'>
+        <h3>Charon</h3>
+        <table>
+          <tr>
+<td> Information in Solar System Database
+</td>
+<td>Information in Control Room Data
+</td></tr>       
+            
+         <td>
+<ul><li>Low gravity </li>
+<li>Temperature is below -200C</li>
+<li>Water crystals on the surface</li></ul>
+</td>
+<td>
+<ul><li>Atmospheric pressure:&#160; none </li>
+<li>Average temperature:&#160; 63K </li>
+<li>Temperature range:&amp;nbsp 53-73K </li>
+<li>Magnetic field:&#160; none </li>
+<li>Substances:&#160; carbon, iron, nitrogen, sodium, water, methane </li>
+<li>Seismic activity: level 1 (very low) </li>
+<li>Topography (radar):&#160; -250 to 100 meters; cratered </li>
+<li>Narrow angle camera:&#160; one picture </li>
+<li>Wide angle camera:&#160; five pictures, hilly </li>
+<li>Infrared camera: almost all -250 C</li></ul>
+</td>   
+            
+            
+            
+        </table>
+        
+      </div>
+      </div>
+      
+      
+    
+    
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  </body>
+</html>

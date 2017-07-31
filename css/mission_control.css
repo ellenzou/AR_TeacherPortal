@@ -1,0 +1,129 @@
+#integration-list ul {
+  padding-left: 130px;
+  margin: 0px auto 0px auto;
+  font-family: Arial, sans serif;
+  color: #555;
+  width: 1150px;
+  float: left;
+  
+}
+
+#integration-list ul > li {
+  list-style: none;
+  border-top: 1px solid #ddd;
+  display: block;
+  padding: 15px;
+  overflow: hidden;
+}
+
+#integration-list ul:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+#integration-list ul > li:hover {
+  background: #fff;
+}
+
+.button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background: #fff;
+  display: block:
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.expand {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  cursor: pointer;
+}
+
+h2 {
+  padding: 0;
+  margin: 25px 0 5px 0;
+  font-size: 18px;
+}
+
+h2:hover{
+    color:#A31A48;
+}
+
+span {
+  font-size: 14px;
+}
+
+.detail {
+  margin: 20px 20px 20px 40px;
+  display: none;
+  line-height: 22px;
+    text-align: justify;
+    width: 1025px;
+}
+
+.detail01 {
+  width: 655px;
+  padding-bottom: 15px;
+  margin: 0px;
+  float: left;
+  display: block;
+  
+}
+
+.detail02 {
+  width: 645px;
+  padding-bottom: 15px;
+  margin: 0px;
+  float: left;
+  display: block;
+}
+
+.right-arrow {
+  width: 10px;
+  height: 10px;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 3px 15px 15px 0;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: -20px 35px -10px 10px;
+}
+
+.icon02 {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 0  0 0 15px;
+  padding: 0 ;
+}
+
+.table {
+    width:1100px;
+}
+
+.london {
+  background: #fff top left no-repeat;
+}
+
+.newyork {
+  background: url("http://placehold.it/50x50") top left no-repeat;
+}
+
+.paris {
+  background: url("http://placehold.it/50x50") top left no-repeat;
+}
+
+.cienporcien {
+    background:url("http://placehold.it/200x200");
+}
+
+.cienporcien2 {
+    background:url("http://placehold.it/200x200");
+}
