@@ -120,6 +120,15 @@ fieldset[disabled] .btn-primary.active {
     font-size: 60px;
 }
 
+h1 {
+    font-family: 'Edgewater', cursive;
+    color: #c8c8c8;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
 .logo span {
     color: #999;
 }
