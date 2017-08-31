@@ -21,9 +21,7 @@
 }
 
 body {
-  width: 1100px;
-    margin-left: 135px;
-    padding: 3em;
+  padding: 3em;
   background-image: url(http://subtlepatterns.com/patterns/retina_wood.png);
   color: grey;
   font-family: 'Quicksand', sans-serif;
@@ -42,8 +40,8 @@ body {
    Tab Styling */
 .tab-group {
   position: relative;
-  margin-left:-50px;
-/*  border: 1px solid ;*/
+    margin-left:-50px;
+  border: 1px solid #eee;
   margin-top: 5em;
   border-radius: 0 0 0px 0px;
      width:1180px;
@@ -149,7 +147,6 @@ p{
 }
 
 
-/*
 #rcorners1 {
     border-radius: 0px;
     border: 2px solid  #2ecc71;
@@ -163,7 +160,6 @@ p{
   
 
 }
-*/
 
 #rcorners1 p{
    margin-left: 80px;
@@ -223,24 +219,22 @@ article {
 
 /* unvisited link */
 a:link {
-    color: #005e8e;
+    color: #2ecc71;
 }
 
 /* visited link */
 a:visited {
-    color: #005e8e;
+    color: #2ecc71;
 }
 
 a.toTop:visited {
-    color: #005e8e;
+    color: #2eccc0;
 }
 
 /* mouse over link */
-/*
 a:hover {
     color: #2eccc0;
 }
-*/
 
 /* selected link */
 a:active {
@@ -397,7 +391,6 @@ iframe {
 
 #tab3 p {
     position: relative;
-    position: relative;
     top:20px;
     left:-70px;
     width:1110px;
@@ -538,7 +531,7 @@ iframe {
 }
 
 .copyright {
-    background: rgba( 0, 0, 0, 0.7);
+          background: rgba( 0, 0, 0, 0.7);
     color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
