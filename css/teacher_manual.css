@@ -38,6 +38,20 @@ body {
 
 /* ===========
    Tab Styling */
+
+
+#content h1 {
+  text-align: center;
+}
+
+#content a {
+  color:#005e8e;
+}
+
+#table-content a {
+    color: #fff;
+}
+
 .tab-group {
   position: relative;
     margin-left:-50px;
@@ -96,33 +110,34 @@ body {
 
 .tab-nav li {
   display: inline;
+  color: white;
     
      
 }
 .tab-nav li a {
     width: 190px;
     text-align: center;
-  top: 2px;
-  position: relative;
-  display: block;
-  float: left;
-  border-radius:15px 15px 0 0;
-  background: #cbc9c7;
-  line-height: 2em;
-  padding: 0 1em;
-  text-decoration: none;
-  color: #fff;
-  margin-top: .8em;
-    
-  margin-right: 1px;
-  transition: background .2s ease, line-height .2s ease, margin .2s ease;
+    top: 2px;
+    position: relative;
+    display: block;
+    float: left;
+    border-radius:15px 15px 0 0;
+    background: #cbc9c7;
+    line-height: 2em;
+    padding: 0 1em;
+    text-decoration: none;
+    color: white;
+    margin-top: .8em;
+      
+    margin-right: 1px;
+    transition: background .2s ease, line-height .2s ease, margin .2s ease;
     font-weight: 200;
     font-size: 17px;
     
   
 }
 .tab-nav li.active a {
-  background: #2ecc71;
+  background: #005e8e;
   color: white;
   line-height: 2.5em;
   margin-top: 0;
@@ -149,7 +164,7 @@ p{
 
 #rcorners1 {
     border-radius: 0px;
-    border: 2px solid  #2ecc71;
+    border: 2px solid  #005e8e;
     padding: 45px;
     
     width: 116%;
@@ -186,11 +201,12 @@ article {
 .table-of-contents {
   float: left;
   width: 250px;
-  border: 2px solid #2ecc71;
-  background: #2ecc71;
+  background: #005e8e;
   font-size: 1.2em;
   padding: 3em 1em;
-  margin: .6em 2.9em;
+ 
+  margin-right: 1.2em;
+  margin-bottom: 1.2em;
     color:#fff;
     padding-left: 50px;
 }
@@ -199,6 +215,8 @@ article {
 }
 .table-of-contents li {
   margin: 0 0 0.25em 0;
+  color:white;
+  text-decoration: underline;
 }
 .table-of-contents a {
   text-decoration: none;
@@ -209,22 +227,28 @@ article {
 }
 
 .table-of-contents a {
-    color:#fff;
+    color:##005e8e;
 }
 
 .table-of-contents a:visited {
-    color: #fff;
+    color: ##005e8e;
 }
 
 
 /* unvisited link */
-a:link {
-    color: #2ecc71;
+
+#standards a:link {
+    color: #005e8e;
+}
+
+
+#comprehensive a:link {
+    color: #005e8e;
 }
 
 /* visited link */
 a:visited {
-    color: #2ecc71;
+    color: #005e8e;
 }
 
 a.toTop:visited {
@@ -238,7 +262,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #2ecc71;
+    color: #005e8e;
 }
 
 h1 {
@@ -269,7 +293,7 @@ h3:target, h3 {
     top:10px;
     left:-70px;
     width:1110px;
-    border: 1px solid #2ecc71;
+    border: 1px solid #005e8e;
     
 }
 
@@ -297,7 +321,7 @@ h3:target, h3 {
     top:10px;
     left:-70px;
     width:1110px;
-    border: 1px solid #2ecc71;
+    border: 1px solid #005e8e;
     
 }
 
@@ -350,7 +374,7 @@ iframe {
     margin-top: 35px;
     margin-left: 20px;
     width:570px;
-     border: 1px solid #2ecc71;
+     border: 1px solid #005e8e;
     
 }
 
@@ -367,7 +391,7 @@ iframe {
 #tab3 #rcorners1 {
     margin-top: 110px;
     border-radius: 0px;
-    border: 2px solid  #2ecc71;
+    border: 2px solid  #005e8e;
     padding: 45px;
 
     width: 118%;
@@ -403,7 +427,7 @@ iframe {
     top:10px;
     left:-70px;
     width:1110px;
-    border: 1px solid #2ecc71;
+    border: 1px solid #005e8e;
     
 }
 
@@ -462,7 +486,7 @@ iframe {
     top:-10px;
     left:-79px;
     width:1110px; 
-    border: 1px solid #2ecc71;
+    border: 1px solid #005e8e;
 }
     
 #tab5 h1 {
@@ -486,7 +510,7 @@ iframe {
     top:-10px;
     left:-9px;
     width:1110px;
-    border: 1px solid #2ecc71;
+    border: 1px solid #005e8e;
 }
 
 
@@ -511,7 +535,7 @@ iframe {
     top:-10px;
     left:-1px;
     width:1110px; 
-    border: 1px solid #2ecc71;
+    border: 1px solid #005e8e;
 }
 
 #tab6 #pageintro p{

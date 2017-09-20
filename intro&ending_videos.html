@@ -31,7 +31,15 @@
         
          
     }
-    .btn:hover
+   
+     .btn:visited
+    {
+        
+        color:#ff7055;
+        
+    }
+
+ .btn:hover
     {
         border:#FF7055 solid 2px;
         font-size:18px;
@@ -45,101 +53,22 @@
         
          
     }
-     .btn:visited
-    {
-        
-        color:#ff7055;
-        
-    }
-
     
 </style>
-<script type="text/javascript">
-$(document).ready(function(){
-    /* Get iframe src attribute value i.e. YouTube video url
-    and store it in a variable */
-    var url = $("#cartoonVideo").attr('src');
-    
-    /* Assign empty url value to the iframe src attribute when
-    modal hide, which stop the video playing */
-    $("#myModal").on('hide.bs.modal', function(){
-        $("#cartoonVideo").attr('src', '');
-    });
-    
-    /* Assign the initially stored url back to the iframe src
-    attribute when modal is displayed again */
-    $("#myModal").on('show.bs.modal', function(){
-        $("#cartoonVideo").attr('src', url);
-    });
-});
-    
-    $(document).ready(function(){
-    /* Get iframe src attribute value i.e. YouTube video url
-    and store it in a variable */
-    var url = $("#cartoonVideo2").attr('src');
-    
-    /* Assign empty url value to the iframe src attribute when
-    modal hide, which stop the video playing */
-    $("#myModal2").on('hide.bs.modal', function(){
-        $("#cartoonVideo2").attr('src', '');
-    });
-    
-    /* Assign the initially stored url back to the iframe src
-    attribute when modal is displayed again */
-    $("#myModal2").on('show.bs.modal', function(){
-        $("#cartoonVideo2").attr('src', url);
-    });
-});
-    
-    
-</script>
+
 </head>
 <body>
 
     <!-- Button HTML (to Trigger Modal) -->
-    <a id="intro" href="#myModal" class="btn col-md-3" data-toggle="modal">Introduction Video</a>
-   
-    <!-- Modal HTML -->
-    <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Alien Rescue Intro Video</h4>
-                </div>
-                <div class="modal-body">
-                    <iframe id="cartoonVideo"  src="https://player.vimeo.com/video/64853115" width = "560" height = "315" frameborder="0" frameborder = "0" webkitallowfullscreen = "" mozallowfullscreen = "" allowFullScreen = ""></iframe>
-                    
-                
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+    <a id="intro" href="https://player.vimeo.com/video/64853115" class="btn col-md-3" target="blank">Introduction Video</a>
+
   
  
     
     <!-- Button HTML (to Trigger Modal) -->
-    <a id="ending" href="#myModal2" class="btn col-md-3" data-toggle="modal">Ending Video</a>
+    <a id="ending" href="https://player.vimeo.com/video/90817308" class="btn col-md-3" target="blank">Ending Video</a>
    
-    <!-- Modal HTML -->
-    <div id="myModal2" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Alien Rescue Ending Video</h4>
-                </div>
-                <div class="modal-body">
-                    <iframe id="cartoonVideo2"  src="https://player.vimeo.com/video/90817308" frameborder="0" width = "560" height = "315" frameborder = "0" webkitallowfullscreen = "" mozallowfullscreen = "" allowFullScreen = ""></iframe>
-                    
-                    
-
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+    
     
   
 
